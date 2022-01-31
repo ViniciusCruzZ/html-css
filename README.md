@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
 
-<a href="https://github.com/ViniciusCruzZ/html-css/blob/main/desafios/desafio010/index.html">hello world</a>
+<a href="https://github.com/ViniciusCruzZ/html-css/main/desafios/desafio010/index.html">hello world</a>
