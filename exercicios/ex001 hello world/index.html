@@ -34,6 +34,50 @@
         <meta name="author" content="Vinícius Cruz">
         <meta name="description" content="Descrição do site abaixo do título!">
         box-sizing: border-box; para a caixa realmente ter o tamanho certo
+        na IMG posso por title="para colocar um título para quando descasar o mouse em cima da imagem"
+        imagem SVG é mt bom, o figma faz elas
+        z-index serve para empilhar elementos, ou seja, mudando ele de camada(dimensão/plano)
+
+        body {
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "main aside"
+            "footer footer";
+            grid-template-rows: 30px 1fr 40px;
+            grid-template-columns: 1fr 80px;
+        }
+
+        header {
+            grid-area: header;
+            background-color: green;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 8px;
+        }
+
+        main {
+            grid-area: main;
+            background-color: red;
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: blue;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: gray;
+        }
+
+        fr serve para preencher(significa 1 fração)
+        o grid vai para os filhos, porém põe nos pais
+        parece com tabelas
+        da para por grid e flex, porém não no mesmo elemento.
     -->
 </body>
 </html>

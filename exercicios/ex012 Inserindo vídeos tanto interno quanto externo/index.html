@@ -10,7 +10,7 @@
     <h1>Inserindo vídeos hospedados localmente</h1>
     <p>Este vídeo está hospedado no meu próprio servidor.</p>
 
-    <video controls width="560" poster="imagem/xyz.jpg" autoplay loop> <!-- Poster é a thumb -->
+    <video controls width="560" poster="imagem/xyz.jpg" autoplay loop preload="auto" muted> <!-- Poster é a thumb -->
         <source src="midia/Meu-Video-1.m4v" type="video/mp4">
         <source src="midia/meu-video.mp4" type="video/mp4">
         <source src="midia/Meu-Video-1.webm" type="video/webm"> <!--Se o vídeo for ogv põe no type ogg-->
@@ -18,6 +18,7 @@
     </video>
 <!--  <video src="midia/meu-video.mp4" width="500" controls></video> Forma Simples -->
     <h1>Inserindo vídeos do YouTube</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Iframe serve para por mapas também-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen tittle="Texto de acessibilidade"></iframe>
 </body>
 </html>
